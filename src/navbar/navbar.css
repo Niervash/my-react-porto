@@ -1,0 +1,63 @@
+
+
+.navbar-brand{
+    font-weight: 500 !important;
+    color: #009970 !important;
+    font-size: 24px !important;
+    transition: 0.3s;
+}
+
+
+.login-button{
+    background-color: #009970 !important;
+    color: white !important;
+    font-size: 14px !important;
+    padding:  8px 20px !important;
+    border-radius: 50px !important;
+    text-decoration: none !important;
+    transition: 0.3s background-color !important;
+}
+
+.login-button:hover{
+    background-color: #00b383 !important;
+}
+
+.navbar-toggler{
+    border: none !important;
+    font-size: 1.25rem !important;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.nav-link{
+    color: #666777 !important;
+    font-weight: 500 !important;
+    position: relative !important;
+}
+
+.nav-link:hover, .nav-link.active{
+    color: #000 !important;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before{
+        content: "" !important;
+        position: absolute !important;
+        bottom: 0 !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: 0 !important;
+        height: 2px !important;
+        background-color:#009970 !important;
+        visibility: visible !important;
+        transition: 0.3s ease-in-out !important; 
+    }
+
+    .nav-link:hover::before, .nav-link.active::before {
+        width: 100% !important;
+        visibility: visible !important;
+    }
+}
