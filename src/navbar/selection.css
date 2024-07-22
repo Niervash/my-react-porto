@@ -1,8 +1,9 @@
 .hero-section{
+    font-family: Arial, Helvetica, sans-serif;
     background:url() no-repeat !important;
     background-size: cover !important;
     width: 100%;
-    color: white ;
+    color: black !important;
 }
 
 .hero-section::before{

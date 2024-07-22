@@ -87,4 +87,8 @@
     display: inline-block !important; /* Menambahkan display inline-block */
 }
 
+#navbar-anim {
 
+    transition: top 0.9s;
+  }
+  
