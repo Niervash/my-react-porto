@@ -1,7 +1,9 @@
 import React from 'react'
 import './navbar.css'
-export const Navbar = () => {
+
+function Navbar() {
   return (
+        // navigation bar start
           <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container-fluid">
               <a className="navbar-brand me-auto"  href="#">Logo</a>
@@ -36,6 +38,10 @@ export const Navbar = () => {
               </button>
             </div>
           </nav>
+        // end navigation bar
+
+        // Hero selection
+        
   )
 }
 
