@@ -68,3 +68,23 @@
         visibility: visible !important;
     }
 }
+.container.logo{
+    width: 5 !important;
+    height: 5 !important;
+}
+.fa-brands {
+    font-size: x-large;
+    font-weight: 500 !important;
+    color: black !important;
+    font-size: 24px !important;
+    transition: 0.3s !important;
+    margin-right: 10px !important; /* Mengurangi nilai margin untuk mendekatkan jarak antar ikon */
+    display: inline-block !important; /* Menambahkan display inline-block */
+}
+
+.fa-brands:last-child {
+    margin-right: 0 !important; /* Menghilangkan margin pada favicon terakhir */
+    display: inline-block !important; /* Menambahkan display inline-block */
+}
+
+
