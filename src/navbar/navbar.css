@@ -1,5 +1,12 @@
 
-
+.navbar{
+    background-color: white !important;
+    height: 80px !important;
+    margin: 20px !important;
+    border-radius: 16px !important;
+    padding: 0.5rem !important;
+    
+}
 .navbar-brand{
     font-weight: 500 !important;
     color: #009970 !important;

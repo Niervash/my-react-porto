@@ -4,8 +4,8 @@ import './navbar.css'
 function Navbar() {
   return (
         // navigation bar start
-          <nav className="navbar navbar-expand-lg fixed-top">
-            <div className="container-fluid">
+          <nav className="navbar navbar-expand-lg fixed-top shadow p-3 mb-5 bg-white rounded">
+            <div className="container">
               <a className="navbar-brand me-auto"  href="#">Logo</a>
               <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div className="offcanvas-header">
@@ -33,7 +33,7 @@ function Navbar() {
                 </div>
               </div>
               <a href='#' className='login-button'>Login</a>
-              <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <button className="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
             </div>
