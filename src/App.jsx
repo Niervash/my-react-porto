@@ -11,8 +11,6 @@ function App() {
       <>
         <Navbar />
         <Rumah />
-        <Selection />
-        <Footer />
       </>
     )
   }

@@ -1,0 +1,46 @@
+
+.hero-section{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+    width: 100% !important;
+}
+
+.hero-section::before{
+    background-color: rgba(red, green, blue, alpha) !important;
+    content: "" ;
+    position: absolute !important;
+    top: 0!important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+}
+
+.hero-section .container{
+    height: 100vh !important;
+    z-index: 1 !important;
+    position: relative !important;
+}
+.hero-section h1{
+    font-size: 1.5em !important;
+    color: black;
+}
+
+.hero-section h2{
+    font-size: 1.2em !important;
+
+}
+
+.hero-section h3{
+    font-size: 2.0em !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    margin-top: -300px !important;
+    color: black;
+
+}
+
+.rounded-circle {
+    width: 230px; /* Change the width as needed */
+    height: 230px; /* Change the height as needed */
+    object-fit: cover; /* Ensures the image covers the container */
+    margin-bottom: 160px;
+}
