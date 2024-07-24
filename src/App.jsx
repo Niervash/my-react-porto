@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Rumah from './page/home/Home.jsx';
+import Home from './page/home/Home.jsx';
 import Navbar from './navbar/Navbar.jsx';
 import Selection from './navbar/Selection.jsx';
 import Footer from './footer/Footer.jsx';
@@ -10,7 +10,7 @@ function App() {
     return (
       <>
         <Navbar />
-        <Rumah />
+        <Home />
       </>
     )
   }

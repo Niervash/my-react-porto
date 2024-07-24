@@ -2,6 +2,7 @@ import React from 'react'
 import './navbar.css'
 import logo from './images/Logo_trasnparent.png'
 import './navbar.js'
+
 function Navbar() {
   return (
         // navigation bar start
@@ -43,8 +44,7 @@ function Navbar() {
             
             </div>
           </nav>
-        // end navigation bar
-        
+        // end navigation bar    
   )
 }
 
